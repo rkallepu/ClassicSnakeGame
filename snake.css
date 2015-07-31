@@ -1,0 +1,68 @@
+.header{
+    text-align: center;
+    position: relative;
+}
+body {
+    font-family: sans-serif;
+}
+div.container{
+    width:550px;
+    margin: 0 auto;
+    height:550px;
+    border:1px solid black;
+    z-index: -10;
+    position:relative;
+}
+div.snakesquare{
+    width:22px;
+    height:22px;
+    background:black;
+    z-index: 10;
+    border: 1px solid white;
+    box-sizing: border-box;
+    position:absolute;
+
+}
+div.food{
+    position:relative;
+    width:22px;
+    height:22px;
+    background:white;
+    z-index: 10;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+div.square1{
+    position:absolute;
+    background:black;
+    width:35%;
+    height:35%;
+    z-index: 1000;
+    top:35%;
+}
+div.square2{
+    position:absolute;
+    background:black;
+    width:35%;
+    height:35%;
+    z-index: 1000;
+    top:35%;
+    left:70%;
+}
+div.square3{
+    position:absolute;
+    background:black;
+    width:35%;
+    height:35%;
+    z-index: 1000;
+    left:35%;
+}
+div.square4{
+    position:absolute;
+    background:black;
+    width:35%;
+    height:35%;
+    z-index: 1000;
+    top:70%;
+    left:35%
+}
